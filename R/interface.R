@@ -150,6 +150,7 @@ gradient <- function(f, ...) {
 #' Default implementation for the gradient of a function.
 #' @param f a function
 #' @param ... additional arguments (not used)
+#' @export
 gradient.default <- function(f, ...) {
     0
 }
